@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: GT-Super;
-    src: url("../../fonts/GT-Super-Text-Regular.ttf") format('truetype');
+    src: url("../fonts/GT-Super-Text-Regular.ttf") format('truetype');
     font-weight: regular;
     font-style: normal;
 }
