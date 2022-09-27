@@ -1,23 +1,116 @@
 
 
+
+
+
+
 @font-face {
     font-family: GT-Super;
-    src: url("../../cstweb/fonts/GT-Super-Text-Regular.ttf") format('truetype');
+    src: url("../../fonts/GT-Super-Text-Regular.ttf") format('truetype');
     font-weight: regular;
     font-style: normal;
 }
 
 
-@font-face {
-    font-family: F16;
-    src: url("../../cstweb/F16_Panel Font.ttf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
+
+
+
+h1 {
+	font-size: 2em;
+	color: #213B76;
 }
 
-@font-face {
-    font-family: F16;
-    src: url("../../SubSkipper/F16_Panel Font.ttf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
+
+#box-text {
+
+	/* The Center for Strategic Translation publishes significant Chinese documents previously unavailable in the English language. */
+
+
+width: 826px;
+height: 220px;
+
+/* Desktop/Headings/Page Title - EN */
+
+font-family: 'GT Super Text';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 115%;
+/* or 55px */
+
+
+/* Cream */
+
+color: #FAF0E7;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#box {
+
+	/* Related Article */
+
+
+/* Auto layout */
+
+
+padding: 32px;
+gap: 16px;
+
+width: 100%px;
+height: 100%px;
+
+/* White */
+
+background: #FFFFFF;
+/* Vocab Shadow */
+
+box-shadow: -3px 3px 13px 2px #738B9C;
+border-radius: 32px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#gradient {
+
+ width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+/* Home Page Gradient */
+
+background: radial-gradient(91.72% 235.79% at 0.87% 4.11%, #000000 16.12%, #213B76 87.5%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+box-shadow: 0px 2px 8px 5px #738B9C;
+
+}
+
+
+#footer {
+
+ width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+/* Home Page Gradient */
+
+background: #000000;
+
+box-shadow: 0px 2px 8px 5px #738B9C;
+
 }
